@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- This html script mainly uses Bootstrap -->
+    <meta name="author" content="Lee Carrier-Coupal & Natacha Levesque">
+    <meta charset="utf-8">
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+    <title>Space Catalogue</title>
+  </head>
+  <body>
+    <div class="p-5"
+      style="background:transparent url('https://upload.wikimedia.org/wikipedia/commons/f/f6/Antennae_galaxies_xl.jpg')
+      no-repeat center center /cover">
+      <header>
+        <nav class="navbar navbar-light bg-transparent">
+          <div class="">
+              <a class="navbar-brand text-light font-weight-bold" href="index.html">Space Catalogue</a>
+          </div>
+          <form class="form-inline" action="#" method="post">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search By Name" name="" value="" aria-label="Search">
+            <button class="btn btn-outline-danger my-2 my-sm-0" name="button" type="Submit">Search</button>
+          </form>
+        </nav>
+      </header>
+        <div class="p-5 mt-3 bg-transparent text-light text-center"
+        style="min-height:100vh">
+          <div class="jumbotron bg-light" style="opacity: .7">
+            <h2 class="display-4 text-left text-dark font-weight-bold">Welcome to our Space catalogue!</h2>
+            <p class="text-left text-dark text-dark font-weight-bold">
+              Here you can find information on all sorts of space objects ranging from asteroids to stars!<br>
+            You only need to write in the top right corner a name of a space object or you can simply search by type</p>
+
+            <hr class="my-4">
+            <h4 class="text-dark text-center m-3">Search by celestial body types</h4>
+            <select class="mx-auto form-control w-25 m-2" id="" style="opacity: 1">
+              <option>Star</option>
+              <option>Planet</option>
+              <option>Moon</option>
+              <option>Asteroid</option>
+              <option>Comet</option>
+            </select>
+            <a href="#">
+              <button type="button" class="btn btn-outline-danger m-2">Search</button>
+            </a>
+            <hr class="my-4">
+            <p class="text-left text-dark">This project was made by Natacha Levesque and Lee Carrier-Coupal for CS457 Database Software Design<br>
+            We built the front end, the back end and the database all from the ground up as it serves as a great learning experience</p>
+            <a href="https://github.com/natachalevesque/databaseProject/tree/master/views?fbclid=IwAR0q5kuGNpfhI63GkZe_QVV3UU9V4VFTX-ls3sicwROBCt1WQQSyjEfPOlQ">
+              <button type="button" class="btn btn-outline-danger float-left">GitHub Repository</button>
+            </a>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
