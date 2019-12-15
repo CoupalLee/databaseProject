@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+	<head>
+	    <!-- This html script mainly uses Bootstrap -->
+	    <meta name="author" content="Lee Carrier-Coupal & Natacha Levesque">
+	    <meta charset="utf-8">
+	    <link rel="stylesheet"
+	          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	          crossorigin="anonymous">
+	    <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
+	    <title>Asteroid Fact Sheet</title>
+	</head>
+	<body>
+	<div class="p-5"
+		 style="background:transparent url('https://upload.wikimedia.org/wikipedia/commons/f/f6/Antennae_galaxies_xl.jpg')
+	      no-repeat center center /cover">
+		<header>
+			<nav class="navbar navbar-light bg-transparent">
+				<div class="">
+					<a class="navbar-brand text-light font-weight-bold" href="index.html">Space Catalogue</a>
+				</div>
+				<form class="form-inline" action="/search" method="get">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search By Name" name="" value="" aria-label="Search">
+					<button class="btn btn-outline-danger my-2 my-sm-0" name="button" type="Submit">Search</button>
+				</form>
+			</nav>
+		</header>
+		<div class="p-5 mt-3 bg-transparent text-light text-center"
+			 style="min-height:100vh">
+			<div class="jumbotron bg-light" style="opacity: .7">
+        <h3 class="text-dark text-left">Asteroid fact sheet</h3>
+        <hr class="my-4 row">
+        <div class="row">
+          <!-- Left column will have the object picture -->
+          <div class="col">
+            <div class="card" >
+              <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/%28253%29_mathilde.jpg" alt="ObjectName">
+            </div>
+          </div>
+          <!-- Right column will have the information table -->
+          <div class="col">
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Attributes</th>
+                  <th scope="col">Values</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>...</td>
+                </tr>
+                <tr>
+                  <td>Mass</td>
+                  <td>...  M⊕</td>
+                </tr>
+                <tr>
+                  <td>Radius</td>
+                  <td>...  R⊕</td>
+                </tr>
+                <tr>
+                  <td>Discoverer</td>
+                  <td>...</td>
+                </tr>
+                <tr>
+                  <td>Year discovered</td>
+                  <td>...</td>
+                </tr>
+                <tr>
+                  <td>Average distance from the sun</td>
+                  <td>... AU</td>
+                </tr>
+              </tbody>
+            </table>
+            <hr class="my-4 row">
+            <div class="card">
+              <h5 class="card-header text-left bg-dark">Astronomical constants</h5>
+              <div class="card-body">
+                <p class="text-dark text-left"><small>Astronomical Unit  (AU) = 1.50x10<sup>11</sup> m</small></p>
+                <p class="text-dark text-left"><small>Light year (ly) = 9.5x10<sup>15</sup> m </small></p>
+                <p class="text-dark text-left"><small>Parsec (pc) = 3.26 ly</small></p>
+                <p class="text-dark text-left"><small>Earth radius (R⊕) = 6.4x10<sup>6</sup> m</small></p>
+                <p class="text-dark text-left"><small>Earth mass (M⊕) = 5.97x10<sup>24</sup> kg</small></p>
+                <p class="text-dark text-left"><small>Solar mass (M☉) = 2x10<sup>30</sup> kg</small></p>
+                <p class="text-dark text-left"><small>Solar radius (R☉) = 6.95x10<sup>8</sup> m</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
